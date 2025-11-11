@@ -1,7 +1,4 @@
-Here’s a complete **README file** (ready to include in your repository) for your PL/SQL project.
-It includes a **table of contents**, your personal information, project description, and all relevant details.
 
----
 
 # 📘 PL/SQL Project — Collections, Records & GOTO Statements
 
@@ -9,8 +6,8 @@ It includes a **table of contents**, your personal information, project descript
 **Student ID:** 28845
 **Lecturer:** Maniraguha Eric
 **Course:** PL/SQL Programming
-**Institution:** [Your School Name]
-**Academic Year:** 2024–2025
+**Institution:** [AUCA]
+**Academic Year:** 2025–2026
 
 ---
 
