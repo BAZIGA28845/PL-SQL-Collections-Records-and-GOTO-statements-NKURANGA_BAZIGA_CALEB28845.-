@@ -3,10 +3,15 @@
 # 📘 PL/SQL Project — Collections, Records & GOTO Statements
 
 **Student Name:** Nkuranga Baziga Caleb
+
 **Student ID:** 28845
+
 **Lecturer:** Maniraguha Eric
+
 **Course:** PL/SQL Programming
-**Institution:** [AUCA]
+
+**Institution:** Adventist University of Central Africa
+
 **Academic Year:** 2025–2026
 
 ---
