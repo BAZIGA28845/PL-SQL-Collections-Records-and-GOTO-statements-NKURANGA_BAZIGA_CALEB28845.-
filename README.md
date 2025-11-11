@@ -23,10 +23,9 @@
    * [b. Records](#b-records)
    * [c. GOTO Statement](#c-goto-statement)
 6. [Sample Code](#6-sample-code)
-7. [Execution Steps](#7-execution-steps)
-8. [Expected Output](#8-expected-output)
-9. [Conclusion](#9-conclusion)
-10. [Author Information](#10-author-information)
+7. [Expected Output](#8-expected-output)
+8. [Conclusion](#9-conclusion)
+9. [Author Information](#10-author-information)
 
 ---
 
@@ -154,17 +153,11 @@ END;
 
 ---
 
-## 7️⃣ Execution Steps
 
-1. Open **SQL Developer** or **SQL*Plus**.
-2. Connect to your Oracle Database.
-3. Copy and paste the code into a new worksheet.
-4. Click **Run Script (F5)**.
-5. Check the results in the **DBMS Output** window.
 
 ---
 
-## 8️⃣ Expected Output
+## 7️⃣ Expected Output
 
 ```
 === STUDENT RESULTS ===
@@ -176,21 +169,19 @@ Muneza failed and was skipped.
 
 ---
 
-## 9️⃣ Conclusion
+## 8️⃣ Conclusion
 
 This project successfully demonstrates how **PL/SQL Collections, Records, and GOTO statements** can be used in a real-world scenario.
 By simulating a school environment, we learned how to store, process, and control the flow of data efficiently in PL/SQL.
 
 ---
 
-## 🔟 Author Information
+## 9️⃣ Author Information
 
 **Name:** Nkuranga Baziga Caleb
 **Student ID:** 28845
 **Lecturer:** Maniraguha Eric
 **Course:** PL/SQL Programming
-**Academic Year:** 2024–2025
+**Academic Year:** 2025–2026
 
 ---
-
-Would you like me to make this README downloadable as a **Word (.docx)** or **PDF** file?
