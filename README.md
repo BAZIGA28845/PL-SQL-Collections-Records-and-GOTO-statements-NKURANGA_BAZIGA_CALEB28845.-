@@ -73,14 +73,28 @@ The system stores their names and marks, calculates grades, and skips students w
 
 Used to store and iterate over multiple student names and marks.
 **Example:** Associative Array & Nested Table.
+<img width="1920" height="1008" alt="3PLSQL Collections" src="https://github.com/user-attachments/assets/e7c84a9f-f508-4496-9196-e45efe633fea" />
+
 
 ### b. Records
 
 Used to store student information (ID, name, marks, and grade) as a single record.
 
+| Student_ID | Student_Name   | Subject          | Marks | Grade | Status |
+| ---------- | -------------- | ---------------- | ----- | ----- | ------ |
+| 1          | Baziga Caleb   | Database Systems | 85    | A     | Passed |
+| 2          | Nkuranga Sabin | Database Systems | 65    | C     | Passed |
+| 3          | Muneza         | Database Systems | 35    | F     | Failed |
+| 4          | Ngabo Prince   | Database Systems | 90    | A     | Passed |
+| 5          | Uwase Aline    | Database Systems | 75    | B     | Passed |
+
+
 ### c. GOTO Statement
 
 Used to skip processing for students who fail (for learning purposes).
+
+<img width="1920" height="1008" alt="5 PLSQL GOTO" src="https://github.com/user-attachments/assets/9d412e58-ea59-4cce-9ed0-b041b41c4b71" />
+
 
 ---
 
