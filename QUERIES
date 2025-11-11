@@ -1,0 +1,88 @@
+1️⃣ PL/SQL Collections
+
+SET SERVEROUTPUT ON;
+
+DECLARE
+  -- Associative array (index-by table)
+  TYPE student_names IS TABLE OF VARCHAR2(50) INDEX BY PLS_INTEGER;
+  students student_names;
+
+  -- Nested table
+  TYPE marks_table IS TABLE OF NUMBER;
+  marks marks_table := marks_table(80, 90, 65, 70, 55);
+
+  i PLS_INTEGER;
+BEGIN
+  -- Add values to associative array
+  students(1) := 'Baziga Caleb';
+  students(2) := 'Nkuranga Sabin';
+  students(3) := 'Muneza';
+  students(4) := 'Ngabo Prince';
+  students(5) := 'Uwase Aline';
+
+  DBMS_OUTPUT.PUT_LINE('=== Student Marks ===');
+  FOR i IN 1 .. marks.COUNT LOOP
+    DBMS_OUTPUT.PUT_LINE(students(i) || ' scored ' || marks(i));
+  END LOOP;
+END;
+/
+
+
+2️⃣ PL/SQL Records
+SET SERVEROUTPUT ON;
+
+DECLARE
+  -- Define a RECORD type
+  TYPE student_rec IS RECORD (
+    id NUMBER,
+    name VARCHAR2(50),
+    marks NUMBER,
+    grade CHAR(1)
+  );
+
+  -- Declare variable of that type
+  s student_rec;
+
+BEGIN
+  -- Assign values
+  s.id := 101;
+  s.name := 'Baziga Caleb';
+  s.marks := 88;
+
+  -- Compute grade
+  IF s.marks >= 80 THEN
+    s.grade := 'A';
+  ELSIF s.marks >= 70 THEN
+    s.grade := 'B';
+  ELSE
+    s.grade := 'C';
+  END IF;
+
+  -- Print result
+  DBMS_OUTPUT.PUT_LINE('Student ID: ' || s.id);
+  DBMS_OUTPUT.PUT_LINE('Name: ' || s.name);
+  DBMS_OUTPUT.PUT_LINE('Marks: ' || s.marks);
+  DBMS_OUTPUT.PUT_LINE('Grade: ' || s.grade);
+END;
+/
+
+3️⃣ PL/SQL GOTO
+SET SERVEROUTPUT ON;
+
+DECLARE
+  student_name VARCHAR2(50);
+  student_mark NUMBER := 35; -- Example mark
+
+BEGIN
+  student_name := 'Muneza';
+
+  IF student_mark < 40 THEN
+    GOTO skip_processing;
+  END IF;
+
+  DBMS_OUTPUT.PUT_LINE(student_name || ' has passed with ' || student_mark);
+
+  <<skip_processing>>
+  DBMS_OUTPUT.PUT_LINE(student_name || ' did not meet the passing mark, skipping...');
+END;
+/
