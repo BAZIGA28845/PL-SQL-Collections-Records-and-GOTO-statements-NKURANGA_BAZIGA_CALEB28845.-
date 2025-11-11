@@ -57,6 +57,15 @@ The main idea is to manage student data, such as names and marks, and process re
 
 This project simulates a **school area** with sample students:
 
+| Student_ID | Student_Name   | Subject          | Marks | Grade | Status |
+| ---------- | -------------- | ---------------- | ----- | ----- | ------ |
+| 1          | Baziga Caleb   | Database Systems | 85    | A     | Passed |
+| 2          | Nkuranga Sabin | Database Systems | 65    | C     | Passed |
+| 3          | Muneza         | Database Systems | 35    | F     | Failed |
+| 4          | Ngabo Prince   | Database Systems | 90    | A     | Passed |
+| 5          | Uwase Aline    | Database Systems | 75    | B     | Passed |
+
+
 * Baziga Caleb
 * Nkuranga Sabin
 * Muneza
@@ -80,13 +89,9 @@ Used to store and iterate over multiple student names and marks.
 
 Used to store student information (ID, name, marks, and grade) as a single record.
 
-| Student_ID | Student_Name   | Subject          | Marks | Grade | Status |
-| ---------- | -------------- | ---------------- | ----- | ----- | ------ |
-| 1          | Baziga Caleb   | Database Systems | 85    | A     | Passed |
-| 2          | Nkuranga Sabin | Database Systems | 65    | C     | Passed |
-| 3          | Muneza         | Database Systems | 35    | F     | Failed |
-| 4          | Ngabo Prince   | Database Systems | 90    | A     | Passed |
-| 5          | Uwase Aline    | Database Systems | 75    | B     | Passed |
+<img width="1920" height="1008" alt="4 PLSQL Records" src="https://github.com/user-attachments/assets/3e2ddebb-beb2-47f6-bcec-16d3afea3610" />
+
+
 
 
 ### c. GOTO Statement
