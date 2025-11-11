@@ -150,6 +150,7 @@ BEGIN
 END;
 /
 ```
+<img width="1920" height="1008" alt="3PLSQL Collections" src="https://github.com/user-attachments/assets/3fa6e709-5228-4e8e-a83d-d459d42a99ae" />
 
 ---
 
@@ -166,6 +167,7 @@ END;
 Muneza failed and was skipped.
 4. Ngabo Prince - 90 - Grade A
 ```
+<img width="960" height="504" alt="image" src="https://github.com/user-attachments/assets/381f56ea-2029-47b1-8eb2-fe2e799f0d86" />
 
 ---
 
